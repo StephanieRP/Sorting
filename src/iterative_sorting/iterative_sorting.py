@@ -29,4 +29,11 @@ def bubble_sort(arr):
 # STRETCH: implement the Count Sort function below
 def count_sort(arr, maximum=-1):
 
+  if len(arr) == 0:
+        return []
+    k = max(arr)
+    count = [0 for x in range(k+1)]
+    output = [0 for x in range(len(arr))]
+
+    
     return arr
